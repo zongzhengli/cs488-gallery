@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+    <title>Gallery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="header-section">
+      <div class="container">
+        <h1>CS 488/688 Project: Ray Tracing</h1>
+        <h4>Zong Zheng Li</h4>
+      </div>
+    </section>
+    <section>
+   
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 1</h3>
+        <h4>Additional primitives (cones, cylinders)</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/primitives.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-200"></div>
+         
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 2</h3>
+        <h4>Refraction (with Fresnel effect)</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/refraction.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-190"></div>
+
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 3</h3>
+        <h4>Supersampling (adaptive)</h4>
+        <h5>None</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="120" data-image-src="images/super-0.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-182" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <hr>
+      <div class="container light">
+        <h5>16X</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="65" data-image-src="images/super-4.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-181" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <hr>
+      <div class="container light">
+        <h5>False colour</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="65" data-image-src="images/super-adaptive.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-180" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 4</h3>
+        <h4>Constructive solid geometry</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/csg.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-170"></div>
+
+    <section class="objective-section">
+      <div class="container dark">
+        <h3>Objective 5</h3>
+        <h4>Spatial partitioning (octrees)</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/spatial.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-160"></div>
+         
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 6</h3>
+        <h4>Texture mapping (solid textures)</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/textures.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-150"></div>
+         
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 7</h3>
+        <h4>Depth of field</h4>
+        <h5>&#402/22, focal length 8 units</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="130" data-image-src="images/dof-22-8.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-142" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <hr>
+      <div class="container light">
+        <h5>&#402/45, focal length 8 units</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="65" data-image-src="images/dof-45-8.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-141" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <hr>
+      <div class="container light">
+        <h5>&#402/45, focal length 12 units</h5>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="65" data-image-src="images/dof-45-12.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-140" data-speed="0"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 8</h3>
+        <h4>Soft shadows</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/shadows.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-130"></div>
+    
+    <section class="objective-section">
+      <div class="container dark">
+        <h3>Objective 9</h3>
+        <h4>Anaglyph 3D</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/anaglyph.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-120"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Additional objective 1</h3>
+        <h4>Glossy reflection</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/glossy.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-110"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Additional objective 2</h3>
+        <h4>Fisheye projection</h4>
+        <p>Fisheye</p>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="130" data-image-src="images/fisheye.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-101"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <p>Perspective</p>
+      </div>
+    </section>
+    
+    <div class="parallax-short" data-parallax="scroll" data-bleed="65" data-image-src="images/fisheye-none.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-100"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Additional objective 3</h3>
+        <h4>Phong interpolation</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/phong.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-90"></div>
+    
+    <section class="objective-section">
+      <div class="container light">
+        <h3>Objective 10</h3>
+        <h4>Final scene</h4>
+      </div>
+    </section>
+    
+    <div class="parallax-full" data-parallax="scroll" data-bleed="100" data-image-src="images/final.png" 
+         data-natural-width="2000" data-natural-height="1000" data-z-index="-80"></div>
+</body>
+</html>

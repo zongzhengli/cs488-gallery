@@ -1,0 +1,25 @@
+.parallax-full {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.parallax-short {
+    min-height: calc(100vh + 65px);
+    background: transparent;
+}
+
+.header-section {
+    padding-bottom: 20px;
+}
+
+.objective-section {
+    padding-bottom: 10px;
+}
+
+.light {
+    color: white;
+}
+
+.dark {
+    color: black;
+}
