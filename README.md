@@ -5,4 +5,4 @@ This was the first place project for the Winter 2016 offering of CS 488 Introduc
 
 [View it here.](https://zongzhengli.github.io/cs488-gallery)
 
-![Demo image](Gallery\images\anaglyph.png)
+![Demo image](images\anaglyph.png)
